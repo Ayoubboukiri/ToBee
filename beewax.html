@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="tobee.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- <script src="beauty.js" ></script> -->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="To_Bee.html">
+            <img src="image\beelogo.png" alt="beeLogo" class="logo">
+            <P class="toBee">To Bee</P></a>
+            <ul >
+                <a href="beauty.html" class="nav_b">Beauty</a>
+                <a href="honey.html" class="nav_b">Honey</a>
+                <a href="beewax.html" class="nav_b">BeeWax</a>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button id="search-button" onclick="searching()"><b>Search</b></button>
+             </div>
+             <i class='bx bx-cart' onclick="show_cart()" id="car_icon"></i> 
+             <div class="cart" >
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- content -->
+                <div class="cart-content">
+                    
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- buy Button -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- cart Close -->
+                <i class='bx bx-x-circle' onclick="close_cart()" id="close-cart"></i>
+                </div>
+            </nav>
+            
+    </header>
+    <section class="shop container"> 
+        <h1 class="section-title">Beauty Products</h1>
+        <div class="shop-content">
+            <!-- box 1 -->
+            <div class="product-box product1">
+                <img src="image\2 BEEWAX TAPERS.jpg" alt="" class="product_img">
+                <h2 class="product-title">2 BEEWAX TAPERS</h2>
+                <span class="price">49 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 2 -->
+            <div class="product-box product2">
+                <img src="image\honey halo.jpg" alt="" class="product_img">
+                <h2 class="product-title">HONEY HALO</h2>
+                <span class="price">65 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 3 -->
+            <div class="product-box product3">
+                <img src="image\BEARD BALM.jpg" alt="" class="product_img">
+                <h2 class="product-title">BEARD BALM</h2>
+                <span class="price">70 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 4 -->
+            <div class="product-box product4">
+                <img src="image\BEE BARS.jpg" alt="" class="product_img">
+                <h2 class="product-title">BEE BARS</h2>
+                <span class="price">80 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 5 -->
+            <div class="product-box product5">
+                <img src="image\Beeswax-Candle.jpg" alt="" class="product_img">
+                <h2 class="product-title">BEEWAX CANDLE</h2>
+                <span class="price">30 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 6 -->
+            <div class="product-box product6">
+                <img src="image\Beewax lip balm.jpg" alt="" class="product_img">
+                <h2 class="product-title">BEEWAX LIP PALM</h2>
+                <span class="price">40 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 7 -->
+            <div class="product-box product7">
+                <img src="image\BEEWAX PILLAR.jpg" alt="" class="product_img">
+                <h2 class="product-title">BEEWAX PILLAR</h2>
+                <span class="price">75 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+             <!-- box 8 -->
+            <div class="product-box product8">
+                <img src="image\BEEWAX TEALIGHTS.jpg" alt="" class="product_img">
+                <h2 class="product-title">BEEWAX TEALIGHTS</h2>
+                <span class="price">105 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+        </div>
+    </section> 
+   <script src="tobee.js"> </script>
+ 
+</body>
+</html>

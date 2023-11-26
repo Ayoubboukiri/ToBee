@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="tobee.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- <script src="beauty.js" ></script> -->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="To_Bee.html">
+            <img src="image\beelogo.png" alt="beeLogo" class="logo">
+            <P class="toBee">To Bee</P></a>
+            <ul >
+                <a href="beauty.html" class="nav_b">Beauty</a>
+                <a href="honey.html" class="nav_b">Honey</a>
+                <a href="beewax.html" class="nav_b">BeeWax</a>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button id="search-button" onclick="searching()"><b>Search</b></button>
+             </div>
+             <i class='bx bx-cart' onclick="show_cart()" id="car_icon"></i> 
+             <div class="cart" >
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- content -->
+                <div class="cart-content">
+                    
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- buy Button -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- cart Close -->
+                <i class='bx bx-x-circle' onclick="close_cart()" id="close-cart"></i>
+                </div>
+            </nav>
+            
+    </header>
+    <section class="shop container"> 
+        <h1 class="section-title">Beauty Products</h1>
+        <div class="shop-content">
+            <!-- box 9 -->
+            <div class="product-box product9">
+                <img src="image\body oil.jpg" alt="" class="product_img">
+                <h2 class="product-title">BODY OIL</h2>
+                <span class="price">43 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 10 -->
+            <div class="product-box product10">
+                <img src="image\honey halo.jpg" alt="" class="product_img">
+                <h2 class="product-title">HONEY HALO</h2>
+                <span class="price">65 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 11 -->
+            <div class="product-box product11">
+                <img src="image\honey-potion.webp" alt="" class="product_img">
+                <h2 class="product-title">HONEY POTION</h2>
+                <span class="price">47 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 12 -->
+            <div class="product-box product12">
+                <img src="image\Aloe Vera Gel.jpg" alt="" class="product_img">
+                <h2 class="product-title">ALOE VERA GEL</h2>
+                <span class="price">40 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 13 -->
+            <div class="product-box product13">
+                <img src="image\images.jpg" alt="" class="product_img">
+                <h2 class="product-title">BEERX</h2>
+                <span class="price">50 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 14 -->
+            <div class="product-box product14">
+                <img src="image\luxury soap.webp" alt="" class="product_img">
+                <h2 class="product-title">LUXURY SOAP</h2>
+                <span class="price">30 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <!-- box 15 -->
+            <div class="product-box product15">
+                <img src="image\pr1.png" alt="" class="product_img">
+                <h2 class="product-title">F&B CREAM</h2>
+                <span class="price">55 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+             <!-- box 16 -->
+            <div class="product-box product16">
+                <img src="image\serum.webp" alt="" class="product_img">
+                <h2 class="product-title">SERUM</h2>
+                <span class="price">45 DH</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+        </div>
+    </section> 
+   <script src="tobee.js"> </script>
+ 
+</body>
+</html>
