@@ -98,7 +98,7 @@ var cartBoxContent = `
 <img src="${productImg}" alt="" class="cart-img">
 <div class="detail-box">
     <div class="cart-product-title">${title}</div>
-    <div class="cart-price">${price}<span> DH</span></div>
+    <div class="cart-price">${price}</div>
     <input type="number" value="0" class="cart-quantity" min="0"> 
 </div>
 
