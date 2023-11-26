@@ -140,46 +140,6 @@ function upDateTotal() {
 // search
 
 
-// function searching() {
-//     var product = document.getElementById('search').value;
-
-//     for (let i = 1; i <= 24; i++) {
-//         var productClass = 'product' + i;
-//         var productContent = document.getElementsByClassName(productClass)[0];
-
-//         if (productContent) {
-//             var productTitle = productContent.querySelector('.product-title').innerText;
-//             var productImg = productContent.querySelector('.product_img').src;
-//             var productPrice = productContent.querySelector('.price').innerText;
-
-//             if (product === productTitle) {
-               
-//                 var popup = document.querySelector(".popup_container");
-//                 if (!popup) {
-                    
-//                     popup = document.createElement('div');
-//                     popup.classList.add('popup_container');
-//                     document.body.appendChild(popup);
-//                 }
-
-//                 // Update popup content and show it
-//                 var popupBoxContent = `
-//                     <img src="${productImg}" alt="" class="popup_img">
-//                     <h2 class="popup_title">${productTitle}</h2>
-//                     <h4 class="popup_price">${productPrice}</h4>
-//                     <i class='bx bx-x popup_remove' onclick="close_popup()"></i>
-//                 `;
-//                 popup.innerHTML = popupBoxContent;
-//                 popup.classList.add("show");
-
-
-//                 return;
-//             }
-//         }
-//     }
-
-//     alert('Product not found');
-// }
 
 function close_popup() {
     var popup = document.querySelector(".popup_container");
