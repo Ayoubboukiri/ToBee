@@ -172,7 +172,7 @@ async function searching() {
                     var productTitle = productContent.querySelector('.product-title').innerText;
                     var productImg = productContent.querySelector('.product_img').src;
                     var productPrice = productContent.querySelector('.price').innerText;
-                    product=product.toUppercase();
+                    product=product.toUpperCase();
                     if (product === productTitle) {
                
                                         var popup = document.querySelector(".popup_container");
